@@ -211,17 +211,19 @@ main .card .content p {
 }
 
 /* celular ------------------------------------------- */
-@media (max-width: 480px) {
+@media (max-width: 480px) {  
   header .description {
     width: 90%;
   }
 
   header .description h3 {
     font-size: 1.3em;
+    
   }
 
   header .search-bar input{
     width: 90%;
+
   }
 
   main .card {
@@ -230,6 +232,10 @@ main .card .content p {
   }
 
   main .card .content h3 {
-    font-size: 1em;
+    font-size: 1.3em;
+  }
+
+  main .card .content .desc {
+    font-size: 0.9em;
   }
 }
